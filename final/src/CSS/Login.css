@@ -1,0 +1,89 @@
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(249, 249, 249, 0.8); /* Added transparency */
+  backdrop-filter: blur(5px); /* Optional: Frosted glass effect */
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent input fields */
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.button-33 {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-33:hover {
+  background-color: #357abd;
+}
+
+.toggle-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e8e8e8;
+  color: #4a90e2;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #d1d1d1;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 80px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
